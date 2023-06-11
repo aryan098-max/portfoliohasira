@@ -1,0 +1,57 @@
+<% layout("layouts/boilertemplate")  %>
+
+
+   <div class="mycontact">
+    <h1 style="margin-bottom: 20px;">My contact details </h1>
+    <p> <i class="fas fa-phone fa-flip-horizontal"></i> +91 8115681331</p>
+    <p> <i class="fas fa-envelope"> aryangupta4279@gmail.com</i></p>
+    <p> <a class="contacticons" href="https://www.linkedin.com/in/aryan-gupta02/"" > <i class="fab fa-linkedin-in"> "https://www.linkedin.com/in/aryan-gupta02/" </i> </a> </p>
+    <p> <a class="contacticons" href="https://github.com/aryan098-max" > <i class="fab fa-github"> "https://github.com/aryan098-max" </i> </a> </p>
+  </div>
+
+
+    <h2>Company Contact Details</h2>
+    <form action="/contact" method="POST" class="validated-form" novalidate>
+
+    <div class="mb-3" >
+        <label for="name" class="form-label">Name:</label>
+        <input class="form-control" type="text" id="name" name="name" placeholder="name" required>
+
+        <div class="valid-feedback">
+            Looks good!
+          </div>
+    </div>
+
+    <div class="mb-3" >
+        <label for="email" class="form-label">Email:</label>
+        <input class="form-control" type="email" id="email" name="email" placeholder="email" required>
+
+        <div class="valid-feedback">
+            Looks good!
+          </div>
+    </div>
+
+    <div class="mb-3" >
+        <label for="company" class="form-label">Company Name:</label>
+        <input class="form-control" type="company" id="company" name="company" placeholder="company" required>
+
+        <div class="valid-feedback">
+            Looks good!
+          </div>
+    </div>
+
+    <div class="mb-3" >
+        <label for="job" class="form-label">Job Title:</label>
+        <input class="form-control" type="job" id="job" name="job" placeholder="job" required>
+
+        <div class="valid-feedback">
+            Looks good!
+          </div>
+    </div>
+
+
+    <button class="btn btn-success">Submit</button>
+
+
+
+</form>

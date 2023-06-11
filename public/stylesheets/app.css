@@ -1,0 +1,270 @@
+.scrollable-area {
+  max-height: 100%; /* Set the maximum height for the scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* =========================================== */
+/* Home.ejs */
+.home {
+  text-align: right;
+}
+
+.image {
+  float: right;
+}
+
+.hometext {
+  text-align: left;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.emailb {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+/*Home.ejs  */
+
+/* ============================================ */
+
+/* About.ejs */
+
+.textabout {
+  color: #343a40;
+  color: #000;
+  text-align: center;
+}
+
+/* Animation in about page  */
+
+.animate {
+  margin-top: 50px;
+  position: center;
+}
+
+.imageanimation {
+  height: 50%;
+  width: 50%;
+}
+
+/* About.ejs */
+
+/* Responsive design  */
+
+@media (max-width: 992px) {
+  /* Styles for screens smaller than 768px (e.g., tablets and mobile devices) */
+  .home {
+    text-align: center;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .hometext {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .emailb {
+    width: 20%;
+    height: 20%;
+    font-size: 14px;
+  }
+
+  .img1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .main {
+    padding-top: 20px;
+    padding-bottom: 10%;
+  }
+}
+
+/* Responsive design */
+
+/* ============================================ */
+
+/* Skill.ejs */
+
+.image1 {
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img1 {
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50px;
+  object-fit: fill;
+}
+
+/* skill.ejs  */
+
+/* ======================================> */
+
+/* Projects */
+
+.mainbody {
+  flex: 1;
+  padding-top: 55px; /* Adjust as needed */
+  padding-bottom: 20%; /* Adjust as needed */
+}
+
+.cardbody {
+  /* background-color: #343a40; */
+  background-color: white;
+  /* background-color: black; */
+  color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.carddiv {
+  margin: 20px;
+}
+
+.cardtext {
+  color: black;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.imagecard {
+  border-radius: 30px;
+  height: 270px;
+  width: 270px;
+  /* object-fit: fill; */
+}
+
+.cfirst {
+  width: 60%;
+  border-radius: 20px;
+  margin-left: 40px;
+  background-color: white;
+}
+
+@media (max-width: 1200px) {
+  .mainbody {
+    padding-top: 20px;
+    padding-bottom: 10%;
+  }
+
+  .cfirst {
+    margin-left: 20px;
+  }
+}
+
+/* Projects */
+
+/* ======================================= */
+
+/* =============================================== */
+
+/* Resume.ejs */
+
+.rimage {
+  height: 100%;
+  width: 40%;
+  position: relative;
+  border-radius: 20px;
+}
+.resume-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Resume.ejs */
+
+/* =================================================== */
+
+/* Contact.ejs */
+
+.mycontact {
+  margin-bottom: 80px;
+}
+
+.resume-button {
+  border-radius: 10px;
+}
+.contacticons {
+  color: black;
+  text-decoration: none;
+  width: 45px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+}
+
+/*Contact.ejs  */
+
+/* =============================================== */
+
+/* Navbar */
+
+.navbar-bg {
+  background-color: #222f3e;
+  /* height: 50px; */
+}
+
+.nbar {
+  margin-left: 10px;
+}
+
+.ebar {
+  /* margin-right: 10px; */
+  margin-left: 20px;
+}
+
+.elbar {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.logo-img {
+  width: 45px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  margin-right: 5px; /* Adjust the margin as needed */
+}
+
+/*  */
+
+/* main and footer and boiler*/
+
+.boiler {
+  /* background-color: #343a40; */
+  /* background-color: black; */
+
+  background-color: #e8f4f8;
+  /* background-color: grey; */
+  /* color: #e8f4f8; */
+  color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  padding-top: 55px; /* Adjust as needed */
+  padding-bottom: 20%; /* Adjust as needed */
+}
+footer {
+  background-color: #0b8457;
+}
+
+.color-footer {
+  color: black;
+}
+
+/*  */

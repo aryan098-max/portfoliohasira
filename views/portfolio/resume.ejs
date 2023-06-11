@@ -1,0 +1,24 @@
+<% layout("layouts/boilertemplate")  %>
+<h2 style="text-align: center;">Resume</h2>
+<div class="resume-container" >
+   <img class="rimage" src="/photos/aryanresume.PNG" alt="">
+</div>
+
+<div class="resume-container">
+<button id="resumeButton" class="btn btn-primary resume-button">Download resume</button>
+</div>
+
+<script>
+
+const button = document.getElementById('resumeButton')
+
+button.addEventListener('click',function(){
+   const link = document.createElement('a');
+      link.href = '/photos/aryanresume.pdf'; // Adjust the path based on your project structure
+      link.download = 'aryanresume.pdf'; // Specify the desired filename for the downloaded file
+
+      // Programmatically click the link to initiate the download -> The link.click() runs own its own
+      // without this code won't work
+      link.click();
+})
+</script>
