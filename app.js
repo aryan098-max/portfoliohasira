@@ -1,8 +1,6 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const mongoose = require("mongoose");
-const Portfolio = require("./models/portfolio");
 
 // sending mail
 const nodemailer = require("nodemailer");
