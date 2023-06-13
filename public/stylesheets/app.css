@@ -109,6 +109,24 @@
   object-fit: fill;
 }
 
+@media (max-width: 992px) {
+  .image1 {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .image1 {
+    justify-content: center;
+  }
+
+  .image-row {
+    justify-content: center;
+    margin-right: 50px;
+    align-items: center;
+  }
+}
+
 /* skill.ejs  */
 
 /* ======================================> */
@@ -163,6 +181,13 @@
 
   .cfirst {
     margin-left: 20px;
+    max-width: 68%;
+  }
+
+  @media (max-width: 480px) {
+    .cfirst {
+      width: 68%;
+    }
   }
 }
 
