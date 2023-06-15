@@ -99,7 +99,7 @@
   align-items: center;
 } */
 
-.container {
+.container-home {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -132,7 +132,7 @@
   .simages {
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 60px;
   }
   .img1 {
     width: 200px;
