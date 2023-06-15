@@ -94,19 +94,23 @@
 
 /* Skill.ejs */
 
-.image1 {
-  margin-left: 100px;
-  margin-top: 30px;
+/* .imagecolumn {
+  justify-content: center;
+  align-items: center;
+} */
+
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.imagecolumn {
+.simages {
+  flex-direction: row;
   justify-content: center;
-  margin-right: 50px;
   align-items: center;
+  margin-left: 120px;
 }
 
 .img1 {
@@ -118,10 +122,6 @@
 }
 
 @media (max-width: 992px) {
-  .image1 {
-    justify-content: center;
-  }
-
   .img1 {
     width: 200px;
     height: 200px;
@@ -129,10 +129,11 @@
 }
 
 @media (max-width: 480px) {
-  .image1 {
+  .simages {
+    align-items: center;
     justify-content: center;
+    margin-left: 50px;
   }
-
   .img1 {
     width: 200px;
     height: 200px;
