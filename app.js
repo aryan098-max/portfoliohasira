@@ -31,9 +31,6 @@ app.engine("ejs", ejsMate);
 // ========================>
 
 // =============== Routes =================>
-app.get("/", (req, res) => {
-  res.render("portfolio/home");
-});
 
 app.get("/skills", (req, res) => {
   res.render("portfolio/skills");
@@ -87,8 +84,8 @@ app.post("/contact", async (req, res) => {
 
 // ==========================================>
 
-app.get("/about", (req, res) => {
-  res.render("portfolio/about");
+app.get("/", (req, res) => {
+  res.render("portfolio/home");
 });
 
 // =========================================>
